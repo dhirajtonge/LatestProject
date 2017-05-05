@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class Practice {
    @Test
     public void firstmethod() throws InterruptedException {
+      System.out.println("inside test");
        WebDriver driver =new ChromeDriver();
        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sameer\\Desktop\\Drivers\\chromedriver.exe");
        driver.get("http://www.google.com");
